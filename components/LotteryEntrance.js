@@ -75,7 +75,7 @@ export default function LotteryEntrance() {
         if (isWeb3Enabled) {
             updateUIValues()
         }
-    }, [isWeb3Enabled])
+    })
     // no list means it'll update everytime anything changes or happens
     // empty list means it'll run once after the initial rendering
     // and dependencies mean it'll run whenever those things in the list change
